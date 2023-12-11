@@ -1,7 +1,11 @@
 version: 1
-
 indices:
-    home:
+    default:
+        include:
+            - /**
+        exclude:
+            - /drafts/**
+            - /templates/**
         target: /query-index.json
         properties:
             smth:
